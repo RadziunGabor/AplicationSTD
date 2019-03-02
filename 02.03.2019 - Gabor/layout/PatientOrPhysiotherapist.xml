@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Witaj w aplikacji ...."
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fizjoteraupeta"
+        android:textSize="30dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="300dp"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PACJENT"
+        android:textSize="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="300dp"
+        android:background="@color/colorPrimaryDark"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wybierz profil:"
+        android:textSize="30dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="120dp"
+        android:height="80dp"
+        android:width="300dp"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>

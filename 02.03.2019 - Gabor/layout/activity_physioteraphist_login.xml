@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".PhysioteraphistLogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz swój login:"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="login"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wpisz swoje hasło:"
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hasło"
+        android:textSize="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="60dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaloguj się"
+        android:textSize="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zarejestruj się"
+        android:textSize="30dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="10dp"
+        android:height="80dp"
+        android:width="400dp"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
